@@ -20,7 +20,17 @@
 <html>
 
 <head>
-    <base href="/Shareminder-hosted/">
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+    <base href="/shareminder-hosted/">
 
     <meta name="google-signin-client_id"
         content="412099770373-6r29ibl62po4d5pni9juppma7tconumk.apps.googleusercontent.com">
@@ -32,32 +42,11 @@
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="portfolio">
-    <link rel="apple-touch-icon" href="icons/apple-icon-180x180.png">
+    <meta name="apple-mobile-web-app-title" content="override">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-
-    <!-- Main Favicon -->
-    <!-- <link rel="icon" type="image/pg" href="favicon/png" /> -->
-
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <title>Shareminder</title>
+    <title>override</title>
     <link rel="manifest" href="manifest.json">
-
     <link rel="stylesheet" type="text/css" href="splash/style.css">
 </head>
 
@@ -90,7 +79,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
     <script>
-        var serviceWorkerVersion = '545647793';
+        var serviceWorkerVersion = '3751037387';
         var scriptLoaded = false;
 
         function loadMainDartJs() {
